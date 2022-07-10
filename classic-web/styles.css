@@ -17,3 +17,7 @@
   height: 100%;
   width: 120px;
 }
+
+.card > .card-right {
+  width: 480px;
+}

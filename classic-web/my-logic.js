@@ -17,15 +17,17 @@ function crearCards() {
   ];
 
   const containerRef = document.getElementsByClassName('container')[0];
-  const containerHtml = info.map(
-    (art) => `<article class="card">
+  const containerHtml = info
+    .map(
+      (art) => `<article class="card">
         <div class="card-left"></div>
         <div class="card-right">
           <h2>${art.category}</h2>
           <p>${art.title}</p>
         </div>
       </article>`
-  );
+    )
+    .join('');
 
   containerRef.innerHTML = containerHtml;
 }
