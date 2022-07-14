@@ -1,6 +1,8 @@
 import './App.css';
 import './styles.css';
 import Card from './Card';
+import ContadorClase from './ContadorClase';
+import Contador from './Contador';
 
 const info = [
   {
@@ -21,11 +23,20 @@ const info = [
 
 function App() {
   return (
-    <section className="container">
-      {info.map((item) => (
-        <Card article={item} />
-      ))}
-    </section>
+    <div>
+      <h2>Cards</h2>
+      <section className="container">
+        {info.map((item) => (
+          <Card article={item} />
+        ))}
+      </section>
+      <h2>Contador (Clase)</h2>
+      <ContadorClase />
+      {/* <ContadorClase /> */}
+      <h2>Contador (Función)</h2>
+      <Contador />
+      {/* <Contador /> */}
+    </div>
   );
 }
 
