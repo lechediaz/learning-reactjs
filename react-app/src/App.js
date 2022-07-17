@@ -3,6 +3,7 @@ import './styles.css';
 import Card from './Card';
 import ContadorClase from './ContadorClase';
 import Contador from './Contador';
+import ProductCreator from './components/ProductCreator/ProductCreator';
 
 const info = [
   {
@@ -36,6 +37,7 @@ function App() {
       <h2>Contador (Función)</h2>
       <Contador />
       {/* <Contador /> */}
+      <ProductCreator />
     </div>
   );
 }

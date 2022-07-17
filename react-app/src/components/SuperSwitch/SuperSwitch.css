@@ -1,0 +1,27 @@
+.super-switch {
+  border: 2px solid rgb(0, 0, 0);
+  height: 30px;
+  width: 80px;
+  border-radius: 100%;
+}
+
+.super-switch.add-margin {
+  margin: 0 10px 0 10px;
+}
+
+.super-switch > .indicator {
+  background-color: gray;
+  height: 100%;
+  width: 40px;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.super-switch > .indicator.active {
+  float: right;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgb(54, 200, 41);
+}

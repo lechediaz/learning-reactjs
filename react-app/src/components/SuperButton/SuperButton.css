@@ -1,0 +1,11 @@
+.my-button {
+  color: aliceblue;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(29, 164, 182);
+}
+
+.my-button:hover {
+  background-color: rgb(9, 128, 175);
+}

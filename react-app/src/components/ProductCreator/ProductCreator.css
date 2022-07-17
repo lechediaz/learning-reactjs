@@ -1,0 +1,11 @@
+.product-creator {
+  display: flex;
+}
+
+.product-creator > input {
+  margin-right: 10px;
+}
+
+.product-creator > input[name=price] {
+  margin-right: 0;
+}
